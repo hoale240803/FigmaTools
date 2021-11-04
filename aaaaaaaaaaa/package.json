@@ -1,5 +1,5 @@
 {
-  "name": "Export2Angular",
+  "name": "aaaaaaaaaaa",
   "version": "1.0.0",
   "description": "Your Figma plugin",
   "main": "code.js",
@@ -9,10 +9,15 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "@figma/plugin-typings": "^1.38.0",
-    "@types/node": "^16.11.6"
+    "@figma/plugin-typings": "^1.38.0"
   },
   "dependencies": {
+    "file-system": "^2.2.2",
     "fs": "0.0.1-security"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }

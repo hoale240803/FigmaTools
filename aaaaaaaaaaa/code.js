@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import fs from 'fs';
 const root = figma.currentPage.selection['0'];
 console.log("Root nha >>>>>", root);
 function Main() {

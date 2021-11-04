@@ -1,6 +1,4 @@
-
-
-import * as fs from "fs";
+import * as fs from "file-system";
 
 const root = figma.currentPage.selection['0']
 
